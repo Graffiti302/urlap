@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bebesi Martin</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header><h1>Űrlap</h1></header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Menu</a></li>
+        <li><a href="index.html">Menu</a></li>
+        <li><a href="index.html">Menu</a></li>
+      </ul>
+    </nav>
+    <article>
+      <form>
+        <fieldset>
+          <legend>Személyes adatok</legend>
+          <div class="block">
+            <label for="nev">Név</label>
+            <input
+              type="text"
+              name="nev"
+              id="nev"
+              placeholder="Vezetéknév Keresztnév"
+            />
+          </div>
+          <div class="block">
+            <label for="psw">password</label>
+            <input type="password" name="psw" id="psw" />
+          </div>
+          <div class="block">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Nem</legend>
+          <label for="ffi">Férfi</label>
+          <input type="radio" id="ffi" name="Nem" /> 
+          <label for="no">Nő</label>
+          <input type="radio" id="no" name="Nem" />
+        </fieldset>
+        <fieldset>
+            <legend>Hobbi - többet is bejelölhetsz</legend>
+            <label for="bic">Bicikli</label>
+            <input type="checkbox" id="bic" name="Hobbi" /> 
+            <label for="bic">Fotózás</label>
+            <input type="checkbox" id="fot" name="Hobbi" /> 
+            <label for="bic">Zene</label>
+            <input type="checkbox" id="zen" name="Hobbi" /> 
+          </fieldset>
+
+        <div class="block">
+          <input type="submit" value="Küldés" />
+        </div>
+      </form>
+    </article>
+  </body>
+</html>
